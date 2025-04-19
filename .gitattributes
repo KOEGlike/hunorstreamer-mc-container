@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+data/world/ filter=lfs diff=lfs merge=lfs -text
+data/world/data/DistantHorizons.sqlite filter=lfs diff=lfs merge=lfs -text

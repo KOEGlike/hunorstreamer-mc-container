@@ -1,0 +1,113 @@
+[16:31:51] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[16:31:52] [main/INFO]: Loading 13 mods:
+	- distanthorizons 2.3.0-b
+	   |-- fabric-api-base 0.4.52+8ca5486f82
+	   |-- fabric-command-api-v2 2.2.39+e496eb1582
+	   |-- fabric-entity-events-v1 2.0.10+60fccc7682
+	   |-- fabric-events-interaction-v0 4.0.0+a4eebcf082
+	   |-- fabric-key-binding-api-v1 1.0.55+7feeb73382
+	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
+	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
+	   |-- fabric-rendering-v1 10.0.0+6a293bdb82
+	   |-- fabric-resource-loader-v0 3.0.9+203e6b2382
+	   \-- fabric-screen-api-v1 2.0.36+7feeb73382
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- java 21
+	- lithium 0.15.0+mc1.21.4
+	- minecraft 1.21.4
+[16:31:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:31:54] [main/INFO]: Compatibility level set to JAVA_21
+[16:31:54] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
+[16:32:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:32:21] [main/INFO]: Initializing Distant Horizons server.
+[16:32:21] [main/INFO]: Distant Horizons, Version: 2.3.0-b
+[16:32:21] [main/INFO]: Registering Fabric Server Events
+[16:32:21] [main/INFO]: Distant Horizons server Initialized.
+[16:32:21] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:32:40] [main/INFO]: Loaded 1370 recipes
+[16:32:40] [main/INFO]: Loaded 1481 advancements
+[16:32:41] [Server thread/INFO]: Initialising config for DistantHorizons
+[16:32:41] [Server thread/INFO]: Config for DistantHorizons initialised
+[16:32:41] [Server thread/INFO]: Post-Initializing Mod
+[16:32:41] [Server thread/INFO]: Mod Post-Initialized
+[16:32:42] [Server thread/INFO]: Checking for Distant Horizons update
+[16:32:44] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: AGGRESSIVE
+[16:32:44] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[16:32:44] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[16:32:45] [DH-ApplyConfigPresetTimer/INFO]: preset active: AGGRESSIVE
+[16:32:51] [Server thread/INFO]: Distant Horizons already up to date.
+[16:32:51] [Server thread/INFO]: Dedicated server initialized at 
+[16:32:51] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[16:32:51] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[16:32:51] [Server thread/INFO]: Loading properties
+[16:32:51] [Server thread/INFO]: Default game type: SURVIVAL
+[16:32:51] [Server thread/INFO]: Generating keypair
+[16:32:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:32:51] [Server thread/INFO]: Using epoll channel type
+[16:32:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:32:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:32:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:32:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:32:52] [Server thread/INFO]: Preparing level "world"
+[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[16:32:56] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[16:32:56] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data)]].
+[16:32:57] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[16:32:57] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[16:32:57] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[16:32:57] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM-1/data;./world/DIM1/data)]].
+[16:32:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:32:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:32:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:32:58] [Worker-Main-2/INFO]: Preparing spawn area: 46%
+[16:32:59] [Server thread/INFO]: Time elapsed: 1235 ms
+[16:32:59] [Server thread/INFO]: Done (6.864s)! For help, type "help"
+[16:32:59] [Server thread/INFO]: Starting remote control listener
+[16:32:59] [Server thread/INFO]: Thread RCON Listener started
+[16:32:59] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[16:32:59] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[16:32:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[16:32:59] [Server thread/INFO]: Batch Chunk Generator initialized
+[16:32:59] [Server thread/INFO]: Creating world gen queue
+[16:32:59] [Server thread/INFO]: Created world gen queue
+[16:32:59] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[16:32:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[16:32:59] [Server thread/INFO]: Batch Chunk Generator initialized
+[16:32:59] [Server thread/INFO]: Creating world gen queue
+[16:32:59] [Server thread/INFO]: Created world gen queue
+[16:32:59] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[16:32:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[16:32:59] [Server thread/INFO]: Batch Chunk Generator initialized
+[16:32:59] [Server thread/INFO]: Creating world gen queue
+[16:32:59] [Server thread/INFO]: Created world gen queue
+[16:32:59] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[16:33:45] [Server thread/INFO]: KOEGlike[/172.19.0.1:46950] logged in with entity id 21 at (476.9566790549026, 126.0, 272.81909069280175)
+[16:33:45] [Server thread/INFO]: Player [KOEGlike] joined.
+[16:33:46] [Server thread/INFO]: KOEGlike joined the game
+[16:33:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2607ms or 52 ticks behind
+[16:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10308ms or 206 ticks behind
+[16:34:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3259ms or 65 ticks behind
+[16:35:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2475ms or 49 ticks behind
+[16:35:52] [Server thread/WARN]: KOEGlike moved too quickly! 0.0,-10.584573338996222,0.0
+[16:36:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3468ms or 69 ticks behind
+[16:36:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4629ms or 92 ticks behind
+[16:36:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2704ms or 54 ticks behind
+[16:37:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9437ms or 188 ticks behind
+[16:38:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2312ms or 46 ticks behind
+[16:38:44] [Netty Epoll Server IO #10/INFO]: Player [KOEGlike] disconnected.
+[16:38:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5831ms or 116 ticks behind
+[16:38:46] [Server thread/INFO]: KOEGlike lost connection: Disconnected
+[16:38:46] [Server thread/INFO]: KOEGlike left the game
+[16:38:53] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[16:38:53] [Server thread/INFO]: [Rcon: Stopping the server]
+[16:38:53] [Server thread/INFO]: Stopping server
+[16:38:53] [Server thread/INFO]: Saving players
+[16:38:53] [Server thread/INFO]: Saving worlds
+[16:38:53] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[16:38:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld

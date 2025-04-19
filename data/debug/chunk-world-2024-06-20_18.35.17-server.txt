@@ -1,0 +1,130 @@
+---- Minecraft Chunk IO Error Report ----
+// This chunk is no more...it has ceased to be...this is an EX-chunk
+
+Time: 2024-06-20 18:35:17
+Description: Chunk load failure
+
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at java.base/java.io.DataInputStream.readByte(Unknown Source)
+	at ub$1.d(SourceFile:74)
+	at ub$1.a(SourceFile:63)
+	at ub$1.c(SourceFile:58)
+	at uh$1.d(SourceFile:48)
+	at uh$1.a(SourceFile:31)
+	at uh$1.c(SourceFile:26)
+	at ub.a(SourceFile:524)
+	at ub$1.d(SourceFile:76)
+	at ub$1.a(SourceFile:63)
+	at ub$1.c(SourceFile:58)
+	at ub.a(SourceFile:524)
+	at ub$1.d(SourceFile:76)
+	at ub$1.a(SourceFile:63)
+	at ub$1.c(SourceFile:58)
+	at uh$1.d(SourceFile:48)
+	at uh$1.a(SourceFile:31)
+	at uh$1.c(SourceFile:26)
+	at ub.a(SourceFile:524)
+	at ub$1.d(SourceFile:76)
+	at ub$1.a(SourceFile:63)
+	at ub$1.c(SourceFile:58)
+	at uo.a(SourceFile:191)
+	at uo.c(SourceFile:186)
+	at uo.a(SourceFile:111)
+	at uo.a(SourceFile:107)
+	at dwq.a(SourceFile:60)
+	at dwl.b(SourceFile:192)
+	at dwl.a(SourceFile:242)
+	at bpm$b.run(SourceFile:60)
+	at bpk.h(SourceFile:91)
+	at bpk.a(SourceFile:146)
+	at bpk.run(SourceFile:102)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: IO-Worker-5
+Stacktrace:
+	at java.base/java.io.DataInputStream.readUnsignedByte(Unknown Source)
+	at java.base/java.io.DataInputStream.readByte(Unknown Source)
+	at ub$1.d(SourceFile:74)
+	at ub$1.a(SourceFile:63)
+	at ub$1.c(SourceFile:58)
+	at uh$1.d(SourceFile:48)
+	at uh$1.a(SourceFile:31)
+	at uh$1.c(SourceFile:26)
+	at ub.a(SourceFile:524)
+	at ub$1.d(SourceFile:76)
+	at ub$1.a(SourceFile:63)
+	at ub$1.c(SourceFile:58)
+	at ub.a(SourceFile:524)
+	at ub$1.d(SourceFile:76)
+	at ub$1.a(SourceFile:63)
+	at ub$1.c(SourceFile:58)
+	at uh$1.d(SourceFile:48)
+	at uh$1.a(SourceFile:31)
+	at uh$1.c(SourceFile:26)
+	at ub.a(SourceFile:524)
+	at ub$1.d(SourceFile:76)
+	at ub$1.a(SourceFile:63)
+	at ub$1.c(SourceFile:58)
+	at uo.a(SourceFile:191)
+	at uo.c(SourceFile:186)
+	at uo.a(SourceFile:111)
+	at uo.a(SourceFile:107)
+	at dwq.a(SourceFile:60)
+	at dwl.b(SourceFile:192)
+	at dwl.a(SourceFile:242)
+	at bpm$b.run(SourceFile:60)
+	at bpk.h(SourceFile:91)
+	at bpk.a(SourceFile:146)
+
+-- Chunk Info --
+Details:
+	Level: world
+	Dimension: minecraft:overworld
+	Storage: chunk
+	Position: [39, 3]
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.a(SourceFile:2008)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Linux (amd64) version 5.15.90.1-microsoft-standard-WSL2
+	Java Version: 21.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 413033752 bytes (393 MiB) / 1073741824 bytes (1024 MiB) up to 1073741824 bytes (1024 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-8600 CPU @ 3.10GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 10
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.10
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 6
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 12038.17
+	Virtual memory used (MiB): 2229.52
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 971810.69, total: 1031018.44
+	Space in storage for workdir (MiB): available: 971810.69, total: 1031018.44
+	JVM Flags: 2 total; -Xmx1G -Xms1G

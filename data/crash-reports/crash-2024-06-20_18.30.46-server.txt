@@ -1,0 +1,81 @@
+---- Minecraft Crash Report ----
+// Would you like a cupcake?
+
+Time: 2024-06-20 18:30:46
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.lang.invoke.DirectMethodHandle.allocateInstance(Unknown Source)
+	at java.base/java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial(DirectMethodHandle$Holder)
+	at java.base/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
+	at com.mojang.serialization.RecordBuilder$AbstractStringBuilder.add(RecordBuilder.java:100)
+	at com.mojang.serialization.codecs.FieldEncoder.encode(FieldEncoder.java:24)
+	at com.mojang.serialization.MapCodec$2.encode(MapCodec.java:82)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$4.encode(RecordCodecBuilder.java:222)
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.encode(RecordCodecBuilder.java:112)
+	at com.mojang.serialization.MapCodec$MapCodecCodec.encode(MapCodec.java:163)
+	at com.mojang.serialization.Encoder$1.encode(Encoder.java:25)
+	at com.mojang.serialization.Codec$2.encode(Codec.java:80)
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at dwi.a(SourceFile:307)
+	at aqb.a(SourceFile:784)
+	at aqb.d(SourceFile:748)
+	at aqb$$Lambda/0x00007f240ce013e8.accept(Unknown Source)
+	at it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap$1.forEach(Long2ObjectLinkedOpenHashMap.java:1719)
+	at aqb.a(SourceFile:431)
+	at aqs.a(SourceFile:290)
+	at aqu.a(SourceFile:820)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:556)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:580)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:924)
+	at net.minecraft.server.MinecraftServer.y(SourceFile:697)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:281)
+	at net.minecraft.server.MinecraftServer$$Lambda/0x00007f240caff6d8.run(Unknown Source)
+	at java.base/java.lang.Thread.runWith(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Linux (amd64) version 5.15.90.1-microsoft-standard-WSL2
+	Java Version: 21.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1585576 bytes (1 MiB) / 1073741824 bytes (1024 MiB) up to 1073741824 bytes (1024 MiB)
+	CPUs: 6
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-8600 CPU @ 3.10GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 10
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.10
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 6
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 12038.17
+	Virtual memory used (MiB): 2910.81
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 971810.94, total: 1031018.44
+	Space in storage for workdir (MiB): available: 971810.94, total: 1031018.44
+	JVM Flags: 2 total; -Xmx1G -Xms1G
+	Server Running: true
+	Player Count: 2 / 20; [aqv['KOEGlike'/6716, l='ServerLevel[world]', x=450.48, y=123.69, z=281.74], aqv['xXmarciXxXx'/18, l='ServerLevel[world]', x=732.46, y=108.00, z=109.27]]
+	Active Data Packs: vanilla
+	Available Data Packs: bundle, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 2757789059341992027
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)
