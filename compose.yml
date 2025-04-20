@@ -7,9 +7,15 @@ services:
       - "25565:25565"
     environment:
       EULA: TRUE
-      VERSION: 1.21.0
+      VERSION: 1.21.5
       TYPE: FABRIC
-      MEMORY: 12G
+      MEMORY: 25G
+      MODS_FILE: /extras/mods.txt
+      REMOVE_OLD_MODS: "true"
+      PLUGINS_FILE: /extras/plugins.txt
+      REMOVE_OLD_PLUGINS: "true"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
+      - ./mods.txt:/extras/mods.txt:ro
+      - ./plugins.txt:/extras/plugins.txt:ro

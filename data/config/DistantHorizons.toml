@@ -32,11 +32,11 @@ _version = 3
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
-	generationRequestRateLimit = 50
+	generationRequestRateLimit = 200
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
-	syncOnLoadRateLimit = 100
+	syncOnLoadRateLimit = 300
 	#
 	# Defines the radius around the central point within which generation is allowed, in blocks. 
 	# If this value is set to 0, generation bounds are disabled.
@@ -159,7 +159,7 @@ _version = 3
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 5
+		numberOfThreads = 32
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -387,7 +387,9 @@ _version = 3
 
 			[client.advanced.debugging.openGl]
 				#
-				# Requires a reboot to change.
+				# Defines how OpenGL errors are handled. 
+				#  Requires rebooting Minecraft to change. 
+				# Will catch OpenGL errors thrown by other mods.
 				overrideVanillaGLLogger = false
 				#
 				# Defines how OpenGL errors are handled. 
@@ -403,6 +405,14 @@ _version = 3
 				# Massively reduces FPS. 
 				# Should only be used if mysterious EXCEPTION_ACCESS_VIOLATION crashes are happening in DH's rendering code for troubleshooting.
 				validateBufferIdsBeforeRendering = false
+				#
+				# If true each Open GL error will only be logged once. 
+				# Enabling this may cause some error logs to be missed. 
+				# Does nothing if overrideVanillaGLLogger is set to false. 
+				#  
+				# Generally this can be kept as 'true' to prevent log spam. 
+				# However, Please set this to 'false' if a developer needs your log to debug a GL issue.
+				onlyLogGlErrorsOnce = true
 
 			[client.advanced.debugging.exampleConfigScreen]
 				shortTest = "69"
@@ -614,7 +624,7 @@ _version = 3
 				blocksToIgnore = "NON_COLLIDING"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 256
+				lodChunkRenderDistanceRadius = 4096
 				#
 				# What the value should vanilla Minecraft's texture LodBias be? 
 				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)

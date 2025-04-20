@@ -1,113 +1,191 @@
-[16:31:51] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[16:31:52] [main/INFO]: Loading 13 mods:
-	- distanthorizons 2.3.0-b
-	   |-- fabric-api-base 0.4.52+8ca5486f82
-	   |-- fabric-command-api-v2 2.2.39+e496eb1582
-	   |-- fabric-entity-events-v1 2.0.10+60fccc7682
-	   |-- fabric-events-interaction-v0 4.0.0+a4eebcf082
-	   |-- fabric-key-binding-api-v1 1.0.55+7feeb73382
-	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
-	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
-	   |-- fabric-rendering-v1 10.0.0+6a293bdb82
-	   |-- fabric-resource-loader-v0 3.0.9+203e6b2382
-	   \-- fabric-screen-api-v1 2.0.36+7feeb73382
-	- fabricloader 0.16.10
+[09:42:04] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.13
+[09:42:04] [main/INFO]: Loading 13 mods:
+	- distanthorizons 2.3.2-b
+	   |-- fabric-api-base 0.4.62+73a52b4b07
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b07
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f07
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b07
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67307
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98907
+	   |-- fabric-rendering-v1 11.1.11+081cc04307
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679607
+	   \-- fabric-screen-api-v1 2.0.46+86c3a9f107
+	- fabricloader 0.16.13
 	   \-- mixinextras 0.4.1
 	- java 21
-	- lithium 0.15.0+mc1.21.4
-	- minecraft 1.21.4
-[16:31:53] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:31:54] [main/INFO]: Compatibility level set to JAVA_21
-[16:31:54] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 0 override(s) found
-[16:32:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[16:32:21] [main/INFO]: Initializing Distant Horizons server.
-[16:32:21] [main/INFO]: Distant Horizons, Version: 2.3.0-b
-[16:32:21] [main/INFO]: Registering Fabric Server Events
-[16:32:21] [main/INFO]: Distant Horizons server Initialized.
-[16:32:21] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:32:40] [main/INFO]: Loaded 1370 recipes
-[16:32:40] [main/INFO]: Loaded 1481 advancements
-[16:32:41] [Server thread/INFO]: Initialising config for DistantHorizons
-[16:32:41] [Server thread/INFO]: Config for DistantHorizons initialised
-[16:32:41] [Server thread/INFO]: Post-Initializing Mod
-[16:32:41] [Server thread/INFO]: Mod Post-Initialized
-[16:32:42] [Server thread/INFO]: Checking for Distant Horizons update
-[16:32:44] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: AGGRESSIVE
-[16:32:44] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
-[16:32:44] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
-[16:32:45] [DH-ApplyConfigPresetTimer/INFO]: preset active: AGGRESSIVE
-[16:32:51] [Server thread/INFO]: Distant Horizons already up to date.
-[16:32:51] [Server thread/INFO]: Dedicated server initialized at 
-[16:32:51] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
-[16:32:51] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[16:32:51] [Server thread/INFO]: Loading properties
-[16:32:51] [Server thread/INFO]: Default game type: SURVIVAL
-[16:32:51] [Server thread/INFO]: Generating keypair
-[16:32:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:32:51] [Server thread/INFO]: Using epoll channel type
-[16:32:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:32:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:32:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:32:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:32:52] [Server thread/INFO]: Preparing level "world"
-[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
-[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[16:32:56] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
-[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
-[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[16:32:56] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[16:32:56] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data)]].
-[16:32:57] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
-[16:32:57] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
-[16:32:57] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
-[16:32:57] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM-1/data;./world/DIM1/data)]].
-[16:32:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:32:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:32:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:32:58] [Worker-Main-2/INFO]: Preparing spawn area: 46%
-[16:32:59] [Server thread/INFO]: Time elapsed: 1235 ms
-[16:32:59] [Server thread/INFO]: Done (6.864s)! For help, type "help"
-[16:32:59] [Server thread/INFO]: Starting remote control listener
-[16:32:59] [Server thread/INFO]: Thread RCON Listener started
-[16:32:59] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[16:32:59] [Server thread/INFO]: DH TerraFirmaCraft detection: false
-[16:32:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[16:32:59] [Server thread/INFO]: Batch Chunk Generator initialized
-[16:32:59] [Server thread/INFO]: Creating world gen queue
-[16:32:59] [Server thread/INFO]: Created world gen queue
-[16:32:59] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
-[16:32:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[16:32:59] [Server thread/INFO]: Batch Chunk Generator initialized
-[16:32:59] [Server thread/INFO]: Creating world gen queue
-[16:32:59] [Server thread/INFO]: Created world gen queue
-[16:32:59] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
-[16:32:59] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
-[16:32:59] [Server thread/INFO]: Batch Chunk Generator initialized
-[16:32:59] [Server thread/INFO]: Creating world gen queue
-[16:32:59] [Server thread/INFO]: Created world gen queue
-[16:32:59] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
-[16:33:45] [Server thread/INFO]: KOEGlike[/172.19.0.1:46950] logged in with entity id 21 at (476.9566790549026, 126.0, 272.81909069280175)
-[16:33:45] [Server thread/INFO]: Player [KOEGlike] joined.
-[16:33:46] [Server thread/INFO]: KOEGlike joined the game
-[16:33:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2607ms or 52 ticks behind
-[16:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10308ms or 206 ticks behind
-[16:34:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3259ms or 65 ticks behind
-[16:35:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2475ms or 49 ticks behind
-[16:35:52] [Server thread/WARN]: KOEGlike moved too quickly! 0.0,-10.584573338996222,0.0
-[16:36:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3468ms or 69 ticks behind
-[16:36:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4629ms or 92 ticks behind
-[16:36:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2704ms or 54 ticks behind
-[16:37:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9437ms or 188 ticks behind
-[16:38:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2312ms or 46 ticks behind
-[16:38:44] [Netty Epoll Server IO #10/INFO]: Player [KOEGlike] disconnected.
-[16:38:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5831ms or 116 ticks behind
-[16:38:46] [Server thread/INFO]: KOEGlike lost connection: Disconnected
-[16:38:46] [Server thread/INFO]: KOEGlike left the game
-[16:38:53] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[16:38:53] [Server thread/INFO]: [Rcon: Stopping the server]
-[16:38:53] [Server thread/INFO]: Stopping server
-[16:38:53] [Server thread/INFO]: Saving players
-[16:38:53] [Server thread/INFO]: Saving worlds
-[16:38:53] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[16:38:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+	- lithium 0.16.2+mc1.21.5
+	- minecraft 1.21.5
+[09:42:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:42:04] [main/INFO]: Compatibility level set to JAVA_21
+[09:42:04] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[09:42:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:42:07] [main/INFO]: Initializing Distant Horizons server.
+[09:42:07] [main/INFO]: Distant Horizons, Version: 2.3.2-b
+[09:42:07] [main/INFO]: Registering Fabric Server Events
+[09:42:07] [main/INFO]: Distant Horizons server Initialized.
+[09:42:07] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:42:08] [main/INFO]: Loaded 1373 recipes
+[09:42:08] [main/INFO]: Loaded 1484 advancements
+[09:42:08] [Server thread/INFO]: Initialising config for DistantHorizons
+[09:42:08] [Server thread/INFO]: Config for DistantHorizons initialised
+[09:42:08] [Server thread/INFO]: Post-Initializing Mod
+[09:42:08] [Server thread/INFO]: Mod Post-Initialized
+[09:42:08] [Server thread/INFO]: Checking for Distant Horizons update
+[09:42:09] [Server thread/INFO]: Distant Horizons already up to date.
+[09:42:09] [Server thread/INFO]: Dedicated server initialized at 
+[09:42:09] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[09:42:09] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[09:42:09] [Server thread/INFO]: Loading properties
+[09:42:09] [Server thread/INFO]: Default game type: SURVIVAL
+[09:42:09] [Server thread/INFO]: Generating keypair
+[09:42:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:42:10] [Server thread/INFO]: Using epoll channel type
+[09:42:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:42:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:42:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:42:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:42:10] [Server thread/INFO]: Preparing level "world"
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[09:42:10] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[09:42:10] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM-1/data;./world/data)]].
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[09:42:10] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[09:42:10] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM1/data;./world/DIM-1/data;./world/data)]].
+[09:42:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:42:10] [Worker-Main-25/INFO]: Preparing spawn area: 0%
+[09:42:10] [Server thread/INFO]: Time elapsed: 396 ms
+[09:42:10] [Server thread/INFO]: Done (0.764s)! For help, type "help"
+[09:42:10] [Server thread/INFO]: Starting remote control listener
+[09:42:10] [Server thread/INFO]: Thread RCON Listener started
+[09:42:10] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[09:42:10] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[09:42:10] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[09:42:10] [Server thread/INFO]: Batch Chunk Generator initialized
+[09:42:10] [Server thread/INFO]: Creating world gen queue
+[09:42:10] [Server thread/INFO]: Created world gen queue
+[09:42:10] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[09:42:10] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[09:42:10] [Server thread/INFO]: Batch Chunk Generator initialized
+[09:42:10] [Server thread/INFO]: Creating world gen queue
+[09:42:10] [Server thread/INFO]: Created world gen queue
+[09:42:10] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[09:42:10] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[09:42:10] [Server thread/INFO]: Batch Chunk Generator initialized
+[09:42:10] [Server thread/INFO]: Creating world gen queue
+[09:42:10] [Server thread/INFO]: Created world gen queue
+[09:42:10] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[09:42:11] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: I_PAID_FOR_THE_WHOLE_CPU
+[09:42:11] [DH-ApplyConfigPresetTimer/INFO]: preset active: I_PAID_FOR_THE_WHOLE_CPU
+[09:42:11] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[09:42:11] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[09:42:21] [Server thread/INFO]: KOEGlike[/172.19.0.1:37592] logged in with entity id 28 at (-2081.5097917706908, 320.0, 2943.755866513383)
+[09:42:21] [Server thread/INFO]: Player [KOEGlike] joined.
+[09:42:21] [Server thread/INFO]: KOEGlike joined the game
+[09:42:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2334ms or 46 ticks behind
+[09:44:21] [Server thread/WARN]: KOEGlike moved too quickly! 13.032118534511028,-0.9809148018764517,-13.231853167526424
+[09:45:10] [Server thread/WARN]: KOEGlike moved too quickly! 0.8275399376349242,-1.1645061003169133,-18.579761626541085
+[09:45:17] [Server thread/WARN]: KOEGlike moved too quickly! 14.56905204114662,-2.2919957034029323,-10.779479812949376
+[09:45:25] [Server thread/WARN]: KOEGlike moved too quickly! 18.32108869413929,-3.0993751023697484,2.7801755891953235
+[09:45:37] [Server thread/WARN]: KOEGlike moved too quickly! 15.17696793323168,-0.26407743446233667,-10.647356505628068
+[09:45:40] [Server thread/WARN]: KOEGlike moved too quickly! -15.919124805092565,3.84225648101841,-8.419353130863783
+[09:45:46] [Server thread/WARN]: KOEGlike moved too quickly! -17.152197236285616,-0.3223134684492095,-7.050787878242318
+[09:46:01] [Server thread/WARN]: KOEGlike moved too quickly! -18.44902802492959,-0.04786114875463454,-1.5477595388716736
+[09:46:07] [Server thread/WARN]: KOEGlike moved too quickly! -17.83774679345379,2.304542760946248,4.048977669596866
+[09:46:14] [Server thread/WARN]: KOEGlike moved too quickly! -15.565155853319538,0.20333470892514072,-9.95110416599698
+[09:46:45] [Server thread/WARN]: KOEGlike moved too quickly! -18.437671982470874,0.009696312608440394,1.6051666200023647
+[09:46:48] [Server thread/WARN]: KOEGlike moved too quickly! -17.595193527708943,-0.49653402075324493,-5.902220203840216
+[09:48:19] [Server thread/WARN]: KOEGlike moved too quickly! -11.50163637186779,-2.123132048820594,14.607521728022675
+[09:48:35] [Server thread/WARN]: KOEGlike moved too quickly! 14.979456969599141,0.1118909020320018,10.85070545937424
+[09:48:40] [Server thread/WARN]: KOEGlike moved too quickly! 18.342404563087257,1.2401794433850455,1.685903089943622
+[09:49:28] [Server thread/INFO]: [KOEGlike: Set the time to 1000]
+[09:51:05] [Server thread/WARN]: KOEGlike moved too quickly! 6.118175336118611,-1.4479186912697628,17.570379503361437
+[09:51:09] [Server thread/WARN]: KOEGlike moved too quickly! 6.753075407705865,-1.0600694096499979,17.32342581696048
+[09:51:43] [Server thread/WARN]: KOEGlike moved too quickly! 15.778859765446441,3.058499344669201,-8.993530837842627
+[09:51:44] [Server thread/WARN]: KOEGlike moved too quickly! 15.557159177025596,3.0443925150302107,-9.348817556426184
+[09:52:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[09:52:31] [Server thread/WARN]: KOEGlike moved too quickly! 8.367676028928827,4.042680125559798,-15.905917054937163
+[09:56:44] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[09:56:44] [Server thread/INFO]: [Rcon: Stopping the server]
+[09:56:44] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[09:56:44] [Server thread/INFO]: Stopping server
+[09:56:44] [Server thread/INFO]: Saving players
+[09:56:44] [Server thread/INFO]: Player [KOEGlike] disconnected.
+[09:56:44] [Server thread/INFO]: KOEGlike lost connection: Disconnected
+[09:56:44] [Server thread/INFO]: KOEGlike left the game
+[09:56:44] [Server thread/INFO]: Saving worlds
+[09:56:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:56:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:56:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:56:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:56:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:56:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:56:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:56:51] [Server thread/INFO]: Unloading level DhServerLevel{5tmo18nnk5hhm@minecraft:overworld} 
+[09:56:51] [Server thread/INFO]: Closing world gen queue
+[09:56:51] [Server thread/INFO]: Closing WorldGenerationQueue...
+[09:56:51] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[09:56:51] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[09:56:51] [Server thread/INFO]: BatchGenerator shutting down...
+[09:56:51] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[09:56:51] [Server thread/INFO]: Canceling in progress generation event futures...
+[09:56:51] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[09:56:51] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[09:56:52] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:overworld}].
+[09:56:52] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:overworld}].
+[09:56:52] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[09:56:52] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[09:56:52] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[09:56:52] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[09:56:52] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:overworld}].
+[09:56:52] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:overworld}].
+[09:56:52] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[09:56:53] [Server thread/INFO]: Unloading level DhServerLevel{5tmo18nnk5hhm@minecraft:the_nether} 
+[09:56:53] [Server thread/INFO]: Closing world gen queue
+[09:56:53] [Server thread/INFO]: Closing WorldGenerationQueue...
+[09:56:53] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[09:56:53] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[09:56:53] [Server thread/INFO]: BatchGenerator shutting down...
+[09:56:53] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[09:56:53] [Server thread/INFO]: Canceling in progress generation event futures...
+[09:56:53] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[09:56:53] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[09:56:53] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:the_nether}].
+[09:56:53] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:the_nether}].
+[09:56:53] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[09:56:53] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[09:56:53] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[09:56:53] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[09:56:53] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:the_nether}].
+[09:56:53] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:the_nether}].
+[09:56:53] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[09:56:53] [Server thread/INFO]: Unloading level DhServerLevel{5tmo18nnk5hhm@minecraft:the_end} 
+[09:56:53] [Server thread/INFO]: Closing world gen queue
+[09:56:53] [Server thread/INFO]: Closing WorldGenerationQueue...
+[09:56:53] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[09:56:53] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[09:56:53] [Server thread/INFO]: BatchGenerator shutting down...
+[09:56:53] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[09:56:53] [Server thread/INFO]: Canceling in progress generation event futures...
+[09:56:53] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[09:56:53] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[09:56:53] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:the_end}].
+[09:56:53] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:the_end}].
+[09:56:53] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[09:56:53] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[09:56:53] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[09:56:53] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[09:56:53] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:the_end}].
+[09:56:53] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{5tmo18nnk5hhm@minecraft:the_end}].
+[09:56:53] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[09:56:53] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[09:56:53] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[09:56:53] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[09:56:53] [Server thread/INFO]: Closing all [0] database connections...
+[09:56:54] [Server thread/INFO]: Thread RCON Listener stopped
